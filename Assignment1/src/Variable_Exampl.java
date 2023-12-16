@@ -1,6 +1,6 @@
 
 
-public class Variable_Exampl {
+public class Variable_Example {
 	   
 
 	    public static void main(String args[])
