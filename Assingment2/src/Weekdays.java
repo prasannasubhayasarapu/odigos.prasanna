@@ -1,36 +1,37 @@
+import java.util.Scanner;
 
 public class Weekdays {
 	public static void main(String[] args) {
-		int weekday=3;
+
+Scanner scan =new Scanner(System.in);
+System.out.println("Enter Day Number");
+int weekday=scan.nextInt();
 		switch(weekday)
 		{
 		case 1:
-		 weekday=1;
 		System.out.println("Monday"); 
 		break;
 		case 2:
-			 weekday=2;
 			System.out.println("Tuesday"); 
 			break;
 		case 3:
-			 weekday=3;
 			System.out.println("Wednesday"); 
 			break;
 		case 4:
-			 weekday=4;
 			System.out.println("Thursday"); 
 			break;
 		case 5:
-			 weekday=5;
 			System.out.println("Friday"); 
 			break;
 		case 6:
-			 weekday=6;
 			System.out.println("Saturday"); 
 			break;	
+		case 7:
+			System.out.println("Sunday");
+			break;
 		default:
-		System.out.println("Sunday");
-	}
+			System.out.println("Invalid Day");
+scan.close();	}
 
 }
 }
