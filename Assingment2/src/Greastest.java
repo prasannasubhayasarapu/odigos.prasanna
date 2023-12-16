@@ -7,7 +7,7 @@ public class Greastest {
 		int c=87;
 	if (a>b)
 		System.out.println("The greastest:"+a);
-	if (b>c)
+	else if (b>c)
 		System.out.println("The greastest:"+b);
 	else
 		System.out.println("The greastest:"+c);
